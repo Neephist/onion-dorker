@@ -14,11 +14,11 @@ def menu():
 
 while True:
     menu()
-    menuzinho = int(input("Deseja prosseguir? "))
-    if menuzinho == 0:
+    menus = int(input("Deseja prosseguir? "))
+    if menus == 0:
         print("Volte sempre")
         break
-    elif menuzinho == 1:
+    elif menus == 1:
         with open("sites.txt", "w") as stream:
             for url in search(dork, stop=100 or 1):
                 print(url, file=stream)
