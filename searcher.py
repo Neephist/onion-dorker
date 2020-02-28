@@ -1,8 +1,8 @@
 from googlesearch import search
 
 print("@Neephist")
-input('ENTER para continuar')
-print("Conteúdos: Hacking, Forum, eBooks")
+input('Pressione ENTER para continuar')
+print("Conteúdos: Hacking, eBooks, Forum")
 conteudo = str(input("Qual conteúdo deseja? "))
 
 dork = f'{conteudo} site:onion.link | site:onion.cab | site:onion.sh | site:tor2web.fi | site:onion.direct'
