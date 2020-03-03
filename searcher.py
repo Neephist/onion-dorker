@@ -24,4 +24,4 @@ while True:
                 print(url, file=stream)
                 print("O link foi salvo (sites.txt)")
     else:
-        print("Opção inválida")
+        print("[-] Opção inválida")
