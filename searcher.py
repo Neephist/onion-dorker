@@ -1,6 +1,5 @@
 from googlesearch import search
 
-print("@Neephist")
 input('Pressione ENTER para continuar')
 print("Conteúdos: Hacking, eBooks, Forum")
 conteudo = str(input("Qual conteúdo deseja? "))
